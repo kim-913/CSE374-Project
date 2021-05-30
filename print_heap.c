@@ -8,6 +8,7 @@
 #include "mem_impl.h"
 
 void print_heap(FILE *f) {
+<<<<<<< HEAD
     freeListNode* temp = freeList;
     while (temp != NULL) {
         uintptr_t add_new = (uintptr_t)temp;
@@ -15,3 +16,8 @@ void print_heap(FILE *f) {
         temp = temp->next;
   }
 }
+=======
+
+}
+
+>>>>>>> 7b3ea6ba7ea6b48c9a90325a7c47545f856d0842

@@ -9,6 +9,7 @@
 #include "mem.h"
 
 void check_heap() {
+<<<<<<< HEAD
     freeListNode* curr = freeList;
     while (curr != NULL && curr->next != NULL) {
         assert(curr->addr < curr->next->addr);
@@ -56,4 +57,7 @@ freeListNode* split(freeListNode* curr_block, uintptr_t size) {
     curr_block->size = size;
     curr_block->next = NULL;
     return split_block;
+=======
+
+>>>>>>> 7b3ea6ba7ea6b48c9a90325a7c47545f856d0842
 }

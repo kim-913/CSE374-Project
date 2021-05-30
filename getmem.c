@@ -7,6 +7,7 @@
 #include "mem.h"
 #include "mem_impl.h"
 
+<<<<<<< HEAD
 //#define h_size=16;
 #define threshold=96;
 #define resize = 4096;
@@ -90,4 +91,8 @@ void* getmem(uintptr_t size) {
     curr_block = (void*)(((uintptr_t)make_New) + h_size);
     total_free -= (size + h_size);
     return curr_block;
+=======
+void* getmem(uintptr_t size) {
+
+>>>>>>> 7b3ea6ba7ea6b48c9a90325a7c47545f856d0842
 }
