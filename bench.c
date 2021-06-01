@@ -5,7 +5,6 @@
  **/
 
 #include "mem.h"
-<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -82,10 +81,4 @@ int main(int argc, char** argv){
     printf("All tests passed\n");
     free(get_mem_ptr);
     return EXIT_SUCCESS;
-=======
-
-int main(int argc, char** argv){
-
->>>>>>> 7b3ea6ba7ea6b48c9a90325a7c47545f856d0842
 }
-
