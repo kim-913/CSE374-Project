@@ -10,4 +10,4 @@ We did not do any extra credit.
 
 bench: with 10000 trials, takes 0.04 seconds to run. The amount of bytes for freelistnode is around 26000. Increasing the lagre block of memory tends to increase the run time of bench
 
-Resources: Searched online resources to implement getmem and freemen. Others we just used the lecture slides. 
+Resources: Searched online resources to implement getmem and freemen. Others we just used the lecture slides. # CSE374-Project
